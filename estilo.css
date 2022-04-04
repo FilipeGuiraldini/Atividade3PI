@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+.header {
+    border-bottom: 3px solid aqua;
+}
+ .header .container {
+    justify-content: space-between;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.titulo {
+    color: aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+.navBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+.header ul .aqui {
+    font-weight: 1000;
+    color: goldenrod;
+}
+ul {
+    color: yellow;
+}
+/* Fim do cabeçalho */
+
+/* Começo do Banner*/
+.banner {
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    height: 550px;
+    color: #ffff;
+    display: flex;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+.banner .container{
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 25%;
+}
+/* Fim do Banner*/
+
+/* Começo do Social*/
+.social {
+    background-color: beige;
+    display: flex;
+}
+.box img{
+    width: 170px;
+}
+.social .container .boxes {
+    display: flex;
+}
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Final Social */
+
+/*Começo do Footer*/
+.footer {
+    background-color: aqua;
+    color: #ffff;
+    height: 150px;
+    display: flex;
+    font-size: 18px;
+    }
+.footer .container {
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+.banner .container .card {
+    background-color: beige;
+    height: 470px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 6px;
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h4 {
+    font-size: 16px;
+}
+.card input {
+    border: palevioletred solid 1px;
+    padding: 5px;
+}
+.card button {
+    background-color: palevioletred;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    font-family: monospace;
+    border: 0;
+    cursor: pointer;
+}
